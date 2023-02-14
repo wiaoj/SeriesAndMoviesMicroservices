@@ -1,0 +1,887 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\Services\\MovieService\\MovieService.WebAPI\\MovieService.WebAPI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\BuildingBlocks\\Core\\BuildingBlocks.Core.Abstractions\\BuildingBlocks.Core.Abstractions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\BuildingBlocks\\Core\\BuildingBlocks.Core.Abstractions\\BuildingBlocks.Core.Abstractions.csproj",
+        "projectName": "BuildingBlocks.Core.Abstractions",
+        "projectPath": "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\BuildingBlocks\\Core\\BuildingBlocks.Core.Abstractions\\BuildingBlocks.Core.Abstractions.csproj",
+        "packagesPath": "C:\\Users\\Bertan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\BuildingBlocks\\Core\\BuildingBlocks.Core.Abstractions\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Microsoft VS\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Bertan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\BuildingBlocks\\Core\\BuildingBlocks.Core.Application\\BuildingBlocks.Core.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\BuildingBlocks\\Core\\BuildingBlocks.Core.Application\\BuildingBlocks.Core.Application.csproj",
+        "projectName": "BuildingBlocks.Core.Application",
+        "projectPath": "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\BuildingBlocks\\Core\\BuildingBlocks.Core.Application\\BuildingBlocks.Core.Application.csproj",
+        "packagesPath": "C:\\Users\\Bertan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\BuildingBlocks\\Core\\BuildingBlocks.Core.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Microsoft VS\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Bertan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\BuildingBlocks\\Core\\BuildingBlocks.Core.Abstractions\\BuildingBlocks.Core.Abstractions.csproj": {
+                "projectPath": "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\BuildingBlocks\\Core\\BuildingBlocks.Core.Abstractions\\BuildingBlocks.Core.Abstractions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\BuildingBlocks\\Core\\BuildingBlocks.Core.Domain\\BuildingBlocks.Core.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\BuildingBlocks\\Core\\BuildingBlocks.Core.Domain\\BuildingBlocks.Core.Domain.csproj",
+        "projectName": "BuildingBlocks.Core.Domain",
+        "projectPath": "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\BuildingBlocks\\Core\\BuildingBlocks.Core.Domain\\BuildingBlocks.Core.Domain.csproj",
+        "packagesPath": "C:\\Users\\Bertan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\BuildingBlocks\\Core\\BuildingBlocks.Core.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Microsoft VS\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Bertan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\BuildingBlocks\\Core\\BuildingBlocks.Core.Abstractions\\BuildingBlocks.Core.Abstractions.csproj": {
+                "projectPath": "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\BuildingBlocks\\Core\\BuildingBlocks.Core.Abstractions\\BuildingBlocks.Core.Abstractions.csproj"
+              },
+              "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\BuildingBlocks\\Core\\BuildingBlocks.Core.Exceptions\\BuildingBlocks.Core.Exceptions.csproj": {
+                "projectPath": "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\BuildingBlocks\\Core\\BuildingBlocks.Core.Exceptions\\BuildingBlocks.Core.Exceptions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\BuildingBlocks\\Core\\BuildingBlocks.Core.Exceptions\\BuildingBlocks.Core.Exceptions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\BuildingBlocks\\Core\\BuildingBlocks.Core.Exceptions\\BuildingBlocks.Core.Exceptions.csproj",
+        "projectName": "BuildingBlocks.Core.Exceptions",
+        "projectPath": "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\BuildingBlocks\\Core\\BuildingBlocks.Core.Exceptions\\BuildingBlocks.Core.Exceptions.csproj",
+        "packagesPath": "C:\\Users\\Bertan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\BuildingBlocks\\Core\\BuildingBlocks.Core.Exceptions\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Microsoft VS\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Bertan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\BuildingBlocks\\Core\\BuildingBlocks.Core.Persistence.MsSQL\\BuildingBlocks.Core.Persistence.MsSQL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\BuildingBlocks\\Core\\BuildingBlocks.Core.Persistence.MsSQL\\BuildingBlocks.Core.Persistence.MsSQL.csproj",
+        "projectName": "BuildingBlocks.Core.Persistence.MsSQL",
+        "projectPath": "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\BuildingBlocks\\Core\\BuildingBlocks.Core.Persistence.MsSQL\\BuildingBlocks.Core.Persistence.MsSQL.csproj",
+        "packagesPath": "C:\\Users\\Bertan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\BuildingBlocks\\Core\\BuildingBlocks.Core.Persistence.MsSQL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Microsoft VS\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Bertan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\BuildingBlocks\\Core\\BuildingBlocks.Core.Persistence\\BuildingBlocks.Core.Persistence.csproj": {
+                "projectPath": "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\BuildingBlocks\\Core\\BuildingBlocks.Core.Persistence\\BuildingBlocks.Core.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\BuildingBlocks\\Core\\BuildingBlocks.Core.Persistence\\BuildingBlocks.Core.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\BuildingBlocks\\Core\\BuildingBlocks.Core.Persistence\\BuildingBlocks.Core.Persistence.csproj",
+        "projectName": "BuildingBlocks.Core.Persistence",
+        "projectPath": "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\BuildingBlocks\\Core\\BuildingBlocks.Core.Persistence\\BuildingBlocks.Core.Persistence.csproj",
+        "packagesPath": "C:\\Users\\Bertan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\BuildingBlocks\\Core\\BuildingBlocks.Core.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Microsoft VS\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Bertan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\BuildingBlocks\\Core\\BuildingBlocks.Core.Abstractions\\BuildingBlocks.Core.Abstractions.csproj": {
+                "projectPath": "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\BuildingBlocks\\Core\\BuildingBlocks.Core.Abstractions\\BuildingBlocks.Core.Abstractions.csproj"
+              },
+              "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\BuildingBlocks\\Core\\BuildingBlocks.Core.Domain\\BuildingBlocks.Core.Domain.csproj": {
+                "projectPath": "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\BuildingBlocks\\Core\\BuildingBlocks.Core.Domain\\BuildingBlocks.Core.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\Services\\MovieService\\MovieService.Application\\MovieService.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\Services\\MovieService\\MovieService.Application\\MovieService.Application.csproj",
+        "projectName": "MovieService.Application",
+        "projectPath": "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\Services\\MovieService\\MovieService.Application\\MovieService.Application.csproj",
+        "packagesPath": "C:\\Users\\Bertan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\Services\\MovieService\\MovieService.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Microsoft VS\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Bertan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\BuildingBlocks\\Core\\BuildingBlocks.Core.Abstractions\\BuildingBlocks.Core.Abstractions.csproj": {
+                "projectPath": "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\BuildingBlocks\\Core\\BuildingBlocks.Core.Abstractions\\BuildingBlocks.Core.Abstractions.csproj"
+              },
+              "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\BuildingBlocks\\Core\\BuildingBlocks.Core.Application\\BuildingBlocks.Core.Application.csproj": {
+                "projectPath": "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\BuildingBlocks\\Core\\BuildingBlocks.Core.Application\\BuildingBlocks.Core.Application.csproj"
+              },
+              "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\Services\\MovieService\\MovieService.Contracts\\MovieService.Contracts.csproj": {
+                "projectPath": "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\Services\\MovieService\\MovieService.Contracts\\MovieService.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\Services\\MovieService\\MovieService.Contracts\\MovieService.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\Services\\MovieService\\MovieService.Contracts\\MovieService.Contracts.csproj",
+        "projectName": "MovieService.Contracts",
+        "projectPath": "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\Services\\MovieService\\MovieService.Contracts\\MovieService.Contracts.csproj",
+        "packagesPath": "C:\\Users\\Bertan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\Services\\MovieService\\MovieService.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Microsoft VS\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Bertan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\Services\\MovieService\\MovieService.Domain\\MovieService.Domain.csproj": {
+                "projectPath": "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\Services\\MovieService\\MovieService.Domain\\MovieService.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\Services\\MovieService\\MovieService.Domain\\MovieService.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\Services\\MovieService\\MovieService.Domain\\MovieService.Domain.csproj",
+        "projectName": "MovieService.Domain",
+        "projectPath": "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\Services\\MovieService\\MovieService.Domain\\MovieService.Domain.csproj",
+        "packagesPath": "C:\\Users\\Bertan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\Services\\MovieService\\MovieService.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Microsoft VS\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Bertan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\BuildingBlocks\\Core\\BuildingBlocks.Core.Domain\\BuildingBlocks.Core.Domain.csproj": {
+                "projectPath": "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\BuildingBlocks\\Core\\BuildingBlocks.Core.Domain\\BuildingBlocks.Core.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\Services\\MovieService\\MovieService.Infrastructure\\MovieService.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\Services\\MovieService\\MovieService.Infrastructure\\MovieService.Infrastructure.csproj",
+        "projectName": "MovieService.Infrastructure",
+        "projectPath": "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\Services\\MovieService\\MovieService.Infrastructure\\MovieService.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Bertan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\Services\\MovieService\\MovieService.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Microsoft VS\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Bertan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\Services\\MovieService\\MovieService.Persistence\\MovieService.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\Services\\MovieService\\MovieService.Persistence\\MovieService.Persistence.csproj",
+        "projectName": "MovieService.Persistence",
+        "projectPath": "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\Services\\MovieService\\MovieService.Persistence\\MovieService.Persistence.csproj",
+        "packagesPath": "C:\\Users\\Bertan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\Services\\MovieService\\MovieService.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Microsoft VS\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Bertan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\BuildingBlocks\\Core\\BuildingBlocks.Core.Persistence.MsSQL\\BuildingBlocks.Core.Persistence.MsSQL.csproj": {
+                "projectPath": "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\BuildingBlocks\\Core\\BuildingBlocks.Core.Persistence.MsSQL\\BuildingBlocks.Core.Persistence.MsSQL.csproj"
+              },
+              "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\Services\\MovieService\\MovieService.Domain\\MovieService.Domain.csproj": {
+                "projectPath": "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\Services\\MovieService\\MovieService.Domain\\MovieService.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\Services\\MovieService\\MovieService.WebAPI\\MovieService.WebAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\Services\\MovieService\\MovieService.WebAPI\\MovieService.WebAPI.csproj",
+        "projectName": "MovieService.WebAPI",
+        "projectPath": "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\Services\\MovieService\\MovieService.WebAPI\\MovieService.WebAPI.csproj",
+        "packagesPath": "C:\\Users\\Bertan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\Services\\MovieService\\MovieService.WebAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Microsoft VS\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Bertan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\Services\\MovieService\\MovieService.Application\\MovieService.Application.csproj": {
+                "projectPath": "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\Services\\MovieService\\MovieService.Application\\MovieService.Application.csproj"
+              },
+              "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\Services\\MovieService\\MovieService.Contracts\\MovieService.Contracts.csproj": {
+                "projectPath": "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\Services\\MovieService\\MovieService.Contracts\\MovieService.Contracts.csproj"
+              },
+              "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\Services\\MovieService\\MovieService.Infrastructure\\MovieService.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\Services\\MovieService\\MovieService.Infrastructure\\MovieService.Infrastructure.csproj"
+              },
+              "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\Services\\MovieService\\MovieService.Persistence\\MovieService.Persistence.csproj": {
+                "projectPath": "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\Services\\MovieService\\MovieService.Persistence\\MovieService.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Spectre.Console": {
+              "target": "Package",
+              "version": "[0.45.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

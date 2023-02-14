@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\BuildingBlocks\Core\BuildingBlocks.Core.Abstractions\BuildingBlocks.Core.Abstractions.csproj" />
+    <ProjectReference Include="..\..\..\BuildingBlocks\Core\BuildingBlocks.Core.Application\BuildingBlocks.Core.Application.csproj" />
+    <ProjectReference Include="..\ActorService.Domain\ActorService.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

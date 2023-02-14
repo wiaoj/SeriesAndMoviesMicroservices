@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "lgt50xYu4gv46rsrUS9+43PHKvXoel5tK+55PHZOKV57jXg/owr+nHf8Ww1SlVmeKq/KtCtHOfrN9ARax2JIVw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\Services\\ActorService\\ActorService.Application\\ActorService.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Bertan\\.nuget\\packages\\mediatr\\11.1.0\\mediatr.11.1.0.nupkg.sha512",
+    "C:\\Users\\Bertan\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\Bertan\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.0.0\\mediatr.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "C:\\Users\\Bertan\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "5EvaxFl5X0LzZjShwbvQeQNNsoQSD+Q3kdceZY3OwTk=",
+  "Source": "DirectorService.WebAPI",
+  "BasePath": "_content/DirectorService.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,12 @@
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\Services\IdentityService\IdentityService.Infrastructure\bin\Debug\net7.0\IdentityService.Infrastructure.deps.json
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\Services\IdentityService\IdentityService.Infrastructure\bin\Debug\net7.0\IdentityService.Infrastructure.dll
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\Services\IdentityService\IdentityService.Infrastructure\bin\Debug\net7.0\IdentityService.Infrastructure.pdb
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\Services\IdentityService\IdentityService.Infrastructure\obj\Debug\net7.0\IdentityService.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\Services\IdentityService\IdentityService.Infrastructure\obj\Debug\net7.0\IdentityService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\Services\IdentityService\IdentityService.Infrastructure\obj\Debug\net7.0\IdentityService.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\Services\IdentityService\IdentityService.Infrastructure\obj\Debug\net7.0\IdentityService.Infrastructure.AssemblyInfo.cs
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\Services\IdentityService\IdentityService.Infrastructure\obj\Debug\net7.0\IdentityService.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\Services\IdentityService\IdentityService.Infrastructure\obj\Debug\net7.0\IdentityService.Infrastructure.dll
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\Services\IdentityService\IdentityService.Infrastructure\obj\Debug\net7.0\refint\IdentityService.Infrastructure.dll
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\Services\IdentityService\IdentityService.Infrastructure\obj\Debug\net7.0\IdentityService.Infrastructure.pdb
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\Services\IdentityService\IdentityService.Infrastructure\obj\Debug\net7.0\ref\IdentityService.Infrastructure.dll

@@ -1,0 +1,52 @@
+name: dockercompose8108289249398362160
+services:
+  categoryservice.db:
+    container_name: categoryservice.db
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: B147896321.
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 1433
+      published: "1434"
+      protocol: tcp
+    restart: always
+  categoryservice.webapi:
+    build:
+      context: C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices
+      dockerfile: src/Services/CategoryService/CategoryService.WebAPI/Dockerfile
+    depends_on:
+      categoryservice.db:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+      ConnectionStrings:MsSQLConnectionString: Server=categoryservice.db;Database=categoryservice;User
+        Id=sa;Password=B147896321.
+    image: categoryservicewebapi
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "5000"
+      protocol: tcp
+    volumes:
+    - type: bind
+      source: C:\Users\Bertan\AppData\Roaming/Microsoft/UserSecrets
+      target: /root/.microsoft/usersecrets
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\Bertan\AppData\Roaming/ASP.NET/Https
+      target: /root/.aspnet/https
+      read_only: true
+      bind:
+        create_host_path: true
+networks:
+  default:
+    name: dockercompose8108289249398362160_default

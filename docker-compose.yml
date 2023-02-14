@@ -1,0 +1,14 @@
+version: '3.4'
+
+services:
+    categoryservice.db:
+        image: mcr.microsoft.com/mssql/server:2022-latest
+
+    #rabbitmq:
+    #    image: rabbitmq:3-management-alpine
+
+    categoryservice.webapi:
+        image: ${DOCKER_REGISTRY-}categoryservicewebapi
+        build:
+            context: .
+            dockerfile: src/Services/CategoryService/CategoryService.WebAPI/Dockerfile

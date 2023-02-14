@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "RhniMtotPtX9jDHUJMfZL7GFDZiXCYMY2Plnu3YheU4=",
+  "Source": "ActorService.WebAPI",
+  "BasePath": "_content/ActorService.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

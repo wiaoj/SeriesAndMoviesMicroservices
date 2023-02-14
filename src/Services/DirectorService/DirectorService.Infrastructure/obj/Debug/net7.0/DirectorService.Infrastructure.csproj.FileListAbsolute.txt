@@ -1,0 +1,12 @@
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\Services\DirectorService\DirectorService.Infrastructure\bin\Debug\net7.0\DirectorService.Infrastructure.deps.json
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\Services\DirectorService\DirectorService.Infrastructure\bin\Debug\net7.0\DirectorService.Infrastructure.dll
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\Services\DirectorService\DirectorService.Infrastructure\bin\Debug\net7.0\DirectorService.Infrastructure.pdb
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\Services\DirectorService\DirectorService.Infrastructure\obj\Debug\net7.0\DirectorService.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\Services\DirectorService\DirectorService.Infrastructure\obj\Debug\net7.0\DirectorService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\Services\DirectorService\DirectorService.Infrastructure\obj\Debug\net7.0\DirectorService.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\Services\DirectorService\DirectorService.Infrastructure\obj\Debug\net7.0\DirectorService.Infrastructure.AssemblyInfo.cs
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\Services\DirectorService\DirectorService.Infrastructure\obj\Debug\net7.0\DirectorService.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\Services\DirectorService\DirectorService.Infrastructure\obj\Debug\net7.0\DirectorService.Infrastructure.dll
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\Services\DirectorService\DirectorService.Infrastructure\obj\Debug\net7.0\refint\DirectorService.Infrastructure.dll
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\Services\DirectorService\DirectorService.Infrastructure\obj\Debug\net7.0\DirectorService.Infrastructure.pdb
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\Services\DirectorService\DirectorService.Infrastructure\obj\Debug\net7.0\ref\DirectorService.Infrastructure.dll

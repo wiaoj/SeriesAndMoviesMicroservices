@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\BuildingBlocks\Core\BuildingBlocks.Core.Persistence.MsSQL\BuildingBlocks.Core.Persistence.MsSQL.csproj" />
+    <ProjectReference Include="..\DirectorService.Application\DirectorService.Application.csproj" />
+    <ProjectReference Include="..\DirectorService.Domain\DirectorService.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

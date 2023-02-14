@@ -1,0 +1,99 @@
+name: dockercompose8108289249398362160
+services:
+  categoryservice.db:
+    container_name: categoryservice.db
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: B147896321.
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 1433
+      published: "1434"
+      protocol: tcp
+    restart: always
+  categoryservice.webapi:
+    build:
+      context: C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices
+      dockerfile: src/Services/CategoryService/CategoryService.WebAPI/Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: CategoryService.WebAPI
+      target: base
+    container_name: CategoryService.WebAPI
+    depends_on:
+      categoryservice.db:
+        condition: service_started
+    entrypoint:
+    - tail
+    - -f
+    - /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
+      ASPNETCORE_URLS: https://+:443;http://+:80
+      ConnectionStrings:MsSQLConnectionString: Server=categoryservice.db;Database=categoryservice;User
+        Id=sa;Password=B147896321.
+      DOTNET_USE_POLLING_FILE_WATCHER: "1"
+      NUGET_FALLBACK_PACKAGES: /root/.nuget/fallbackpackages
+    image: categoryservicewebapi:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages
+        --additionalProbingPath /root/.nuget/fallbackpackages  "/app/bin/Debug/net7.0/CategoryService.WebAPI.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
+        dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "5000"
+      protocol: tcp
+    tty: true
+    volumes:
+    - type: bind
+      source: C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\Services\CategoryService\CategoryService.WebAPI
+      target: /app
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\Bertan\vsdbg\vs2017u5
+      target: /remote_debugger
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\Bertan\AppData\Roaming/ASP.NET/Https
+      target: /root/.aspnet/https
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\Bertan\AppData\Roaming/Microsoft/UserSecrets
+      target: /root/.microsoft/usersecrets
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: D:\Microsoft VS\Shared\NuGetPackages
+      target: /root/.nuget/fallbackpackages
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\Bertan\.nuget\packages\
+      target: /root/.nuget/packages
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices
+      target: /src
+      bind:
+        create_host_path: true
+networks:
+  default:
+    name: dockercompose8108289249398362160_default

@@ -1,0 +1,15 @@
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\BuildingBlocks\Core\BuildingBlocks.Core.Application\bin\Debug\net7.0\BuildingBlocks.Core.Application.deps.json
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\BuildingBlocks\Core\BuildingBlocks.Core.Application\bin\Debug\net7.0\BuildingBlocks.Core.Application.dll
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\BuildingBlocks\Core\BuildingBlocks.Core.Application\bin\Debug\net7.0\BuildingBlocks.Core.Application.pdb
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\BuildingBlocks\Core\BuildingBlocks.Core.Application\bin\Debug\net7.0\BuildingBlocks.Core.Abstractions.dll
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\BuildingBlocks\Core\BuildingBlocks.Core.Application\bin\Debug\net7.0\BuildingBlocks.Core.Abstractions.pdb
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\BuildingBlocks\Core\BuildingBlocks.Core.Application\obj\Debug\net7.0\BuildingBlocks.Core.Application.csproj.AssemblyReference.cache
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\BuildingBlocks\Core\BuildingBlocks.Core.Application\obj\Debug\net7.0\BuildingBlocks.Core.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\BuildingBlocks\Core\BuildingBlocks.Core.Application\obj\Debug\net7.0\BuildingBlocks.Core.Application.AssemblyInfoInputs.cache
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\BuildingBlocks\Core\BuildingBlocks.Core.Application\obj\Debug\net7.0\BuildingBlocks.Core.Application.AssemblyInfo.cs
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\BuildingBlocks\Core\BuildingBlocks.Core.Application\obj\Debug\net7.0\BuildingBlocks.Core.Application.csproj.CoreCompileInputs.cache
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\BuildingBlocks\Core\BuildingBlocks.Core.Application\obj\Debug\net7.0\BuildingBlocks.Core.Application.csproj.CopyComplete
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\BuildingBlocks\Core\BuildingBlocks.Core.Application\obj\Debug\net7.0\BuildingBlocks.Core.Application.dll
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\BuildingBlocks\Core\BuildingBlocks.Core.Application\obj\Debug\net7.0\refint\BuildingBlocks.Core.Application.dll
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\BuildingBlocks\Core\BuildingBlocks.Core.Application\obj\Debug\net7.0\BuildingBlocks.Core.Application.pdb
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\BuildingBlocks\Core\BuildingBlocks.Core.Application\obj\Debug\net7.0\ref\BuildingBlocks.Core.Application.dll

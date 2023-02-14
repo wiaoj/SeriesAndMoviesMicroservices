@@ -1,0 +1,12 @@
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\Services\MovieService\MovieService.Infrastructure\bin\Debug\net7.0\MovieService.Infrastructure.deps.json
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\Services\MovieService\MovieService.Infrastructure\bin\Debug\net7.0\MovieService.Infrastructure.dll
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\Services\MovieService\MovieService.Infrastructure\bin\Debug\net7.0\MovieService.Infrastructure.pdb
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\Services\MovieService\MovieService.Infrastructure\obj\Debug\net7.0\MovieService.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\Services\MovieService\MovieService.Infrastructure\obj\Debug\net7.0\MovieService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\Services\MovieService\MovieService.Infrastructure\obj\Debug\net7.0\MovieService.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\Services\MovieService\MovieService.Infrastructure\obj\Debug\net7.0\MovieService.Infrastructure.AssemblyInfo.cs
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\Services\MovieService\MovieService.Infrastructure\obj\Debug\net7.0\MovieService.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\Services\MovieService\MovieService.Infrastructure\obj\Debug\net7.0\MovieService.Infrastructure.dll
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\Services\MovieService\MovieService.Infrastructure\obj\Debug\net7.0\refint\MovieService.Infrastructure.dll
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\Services\MovieService\MovieService.Infrastructure\obj\Debug\net7.0\MovieService.Infrastructure.pdb
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\Services\MovieService\MovieService.Infrastructure\obj\Debug\net7.0\ref\MovieService.Infrastructure.dll

@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BuildingBlocks.Core.Abstractions\BuildingBlocks.Core.Abstractions.csproj" />
+    <ProjectReference Include="..\BuildingBlocks.Core.Exceptions\BuildingBlocks.Core.Exceptions.csproj" />
+  </ItemGroup>
+
+</Project>

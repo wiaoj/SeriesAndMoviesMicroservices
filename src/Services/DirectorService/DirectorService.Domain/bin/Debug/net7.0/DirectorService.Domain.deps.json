@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "DirectorService.Domain/1.0.0": {
+        "dependencies": {
+          "BuildingBlocks.Core.Abstractions.Domain": "1.0.0"
+        },
+        "runtime": {
+          "DirectorService.Domain.dll": {}
+        }
+      },
+      "BuildingBlocks.Core.Abstractions.Domain/1.0.0": {
+        "runtime": {
+          "BuildingBlocks.Core.Abstractions.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DirectorService.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BuildingBlocks.Core.Abstractions.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

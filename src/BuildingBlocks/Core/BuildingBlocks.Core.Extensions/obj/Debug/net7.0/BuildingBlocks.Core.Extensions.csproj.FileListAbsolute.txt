@@ -1,0 +1,12 @@
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\BuildingBlocks\Core\BuildingBlocks.Core.Extensions\bin\Debug\net7.0\BuildingBlocks.Core.Extensions.deps.json
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\BuildingBlocks\Core\BuildingBlocks.Core.Extensions\bin\Debug\net7.0\BuildingBlocks.Core.Extensions.dll
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\BuildingBlocks\Core\BuildingBlocks.Core.Extensions\bin\Debug\net7.0\BuildingBlocks.Core.Extensions.pdb
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\BuildingBlocks\Core\BuildingBlocks.Core.Extensions\obj\Debug\net7.0\BuildingBlocks.Core.Extensions.csproj.AssemblyReference.cache
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\BuildingBlocks\Core\BuildingBlocks.Core.Extensions\obj\Debug\net7.0\BuildingBlocks.Core.Extensions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\BuildingBlocks\Core\BuildingBlocks.Core.Extensions\obj\Debug\net7.0\BuildingBlocks.Core.Extensions.AssemblyInfoInputs.cache
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\BuildingBlocks\Core\BuildingBlocks.Core.Extensions\obj\Debug\net7.0\BuildingBlocks.Core.Extensions.AssemblyInfo.cs
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\BuildingBlocks\Core\BuildingBlocks.Core.Extensions\obj\Debug\net7.0\BuildingBlocks.Core.Extensions.csproj.CoreCompileInputs.cache
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\BuildingBlocks\Core\BuildingBlocks.Core.Extensions\obj\Debug\net7.0\BuildingBlocks.Core.Extensions.dll
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\BuildingBlocks\Core\BuildingBlocks.Core.Extensions\obj\Debug\net7.0\refint\BuildingBlocks.Core.Extensions.dll
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\BuildingBlocks\Core\BuildingBlocks.Core.Extensions\obj\Debug\net7.0\BuildingBlocks.Core.Extensions.pdb
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\BuildingBlocks\Core\BuildingBlocks.Core.Extensions\obj\Debug\net7.0\ref\BuildingBlocks.Core.Extensions.dll

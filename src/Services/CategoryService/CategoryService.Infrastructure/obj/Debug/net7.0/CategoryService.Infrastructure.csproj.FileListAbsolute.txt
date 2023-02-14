@@ -1,0 +1,12 @@
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\Services\CategoryService\CategoryService.Infrastructure\bin\Debug\net7.0\CategoryService.Infrastructure.deps.json
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\Services\CategoryService\CategoryService.Infrastructure\bin\Debug\net7.0\CategoryService.Infrastructure.dll
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\Services\CategoryService\CategoryService.Infrastructure\bin\Debug\net7.0\CategoryService.Infrastructure.pdb
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\Services\CategoryService\CategoryService.Infrastructure\obj\Debug\net7.0\CategoryService.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\Services\CategoryService\CategoryService.Infrastructure\obj\Debug\net7.0\CategoryService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\Services\CategoryService\CategoryService.Infrastructure\obj\Debug\net7.0\CategoryService.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\Services\CategoryService\CategoryService.Infrastructure\obj\Debug\net7.0\CategoryService.Infrastructure.AssemblyInfo.cs
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\Services\CategoryService\CategoryService.Infrastructure\obj\Debug\net7.0\CategoryService.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\Services\CategoryService\CategoryService.Infrastructure\obj\Debug\net7.0\CategoryService.Infrastructure.dll
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\Services\CategoryService\CategoryService.Infrastructure\obj\Debug\net7.0\refint\CategoryService.Infrastructure.dll
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\Services\CategoryService\CategoryService.Infrastructure\obj\Debug\net7.0\CategoryService.Infrastructure.pdb
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\Services\CategoryService\CategoryService.Infrastructure\obj\Debug\net7.0\ref\CategoryService.Infrastructure.dll

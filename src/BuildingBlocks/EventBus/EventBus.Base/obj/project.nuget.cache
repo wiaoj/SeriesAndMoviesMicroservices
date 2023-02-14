@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "TvwZqVasTPn3nrgQ1AshepSk1ZFQJqRYEGHPyzBCCN24mp5cWYKK782vHpmFiaLxLsLS4YJ2dWZldcytpVxltg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\BuildingBlocks\\EventBus\\EventBus.Base\\EventBus.Base.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Bertan\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Bertan\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

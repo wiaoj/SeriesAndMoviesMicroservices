@@ -1,0 +1,32 @@
+version: '3.4'
+
+services:
+    #rabbitmq:
+    #    container_name: rabbitmq
+    #    restart: always
+    #    ports:
+    #        - "5672:5672"
+    #        - "15672:15672"
+
+    categoryservice.db:
+        container_name: categoryservice.db
+        restart: always
+        ports:
+            - "1434:1433"
+        environment:
+            ACCEPT_EULA: "Y"
+            SA_PASSWORD: "B147896321."
+
+    categoryservice.webapi:
+        environment:
+            - ASPNETCORE_ENVIRONMENT=Development
+            - ASPNETCORE_URLS=https://+:443;http://+:80
+            - "ConnectionStrings:MsSQLConnectionString=Server=categoryservice.db;Database=categoryservice;User Id=sa;Password=B147896321."
+        ports:
+            - "5000:80"
+        depends_on:
+            #- rabbitmq
+            - categoryservice.db
+        volumes:
+            - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
+            - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro

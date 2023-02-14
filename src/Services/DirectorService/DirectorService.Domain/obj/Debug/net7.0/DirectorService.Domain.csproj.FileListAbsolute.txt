@@ -1,0 +1,15 @@
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\Services\DirectorService\DirectorService.Domain\bin\Debug\net7.0\DirectorService.Domain.deps.json
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\Services\DirectorService\DirectorService.Domain\bin\Debug\net7.0\DirectorService.Domain.dll
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\Services\DirectorService\DirectorService.Domain\bin\Debug\net7.0\DirectorService.Domain.pdb
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\Services\DirectorService\DirectorService.Domain\bin\Debug\net7.0\BuildingBlocks.Core.Abstractions.Domain.dll
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\Services\DirectorService\DirectorService.Domain\bin\Debug\net7.0\BuildingBlocks.Core.Abstractions.Domain.pdb
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\Services\DirectorService\DirectorService.Domain\obj\Debug\net7.0\DirectorService.Domain.csproj.AssemblyReference.cache
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\Services\DirectorService\DirectorService.Domain\obj\Debug\net7.0\DirectorService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\Services\DirectorService\DirectorService.Domain\obj\Debug\net7.0\DirectorService.Domain.AssemblyInfoInputs.cache
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\Services\DirectorService\DirectorService.Domain\obj\Debug\net7.0\DirectorService.Domain.AssemblyInfo.cs
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\Services\DirectorService\DirectorService.Domain\obj\Debug\net7.0\DirectorService.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\Services\DirectorService\DirectorService.Domain\obj\Debug\net7.0\DirectorService.Domain.csproj.CopyComplete
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\Services\DirectorService\DirectorService.Domain\obj\Debug\net7.0\DirectorService.Domain.dll
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\Services\DirectorService\DirectorService.Domain\obj\Debug\net7.0\refint\DirectorService.Domain.dll
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\Services\DirectorService\DirectorService.Domain\obj\Debug\net7.0\DirectorService.Domain.pdb
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\Services\DirectorService\DirectorService.Domain\obj\Debug\net7.0\ref\DirectorService.Domain.dll

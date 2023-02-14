@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "3ZV5sdqykcf+QYPoA27JyOoHLV1DJZogNUKcLHkZSEZfPMsVFqhaw2AAXpY2+9XMgEzZRAlYq/teATV7fh5ByQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Bertan\\source\\repos\\SeriesAndMovies\\SeriesAndMoviesMicroservices\\src\\Services\\MovieService\\MovieService.Infrastructure\\MovieService.Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Bertan\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

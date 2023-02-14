@@ -1,0 +1,1 @@
+public record xxxRequest(string asd);

@@ -1,0 +1,12 @@
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\BuildingBlocks\Core\BuildingBlocks.Core.Exceptions\obj\Debug\net7.0\BuildingBlocks.Core.Exceptions.csproj.AssemblyReference.cache
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\BuildingBlocks\Core\BuildingBlocks.Core.Exceptions\obj\Debug\net7.0\BuildingBlocks.Core.Exceptions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\BuildingBlocks\Core\BuildingBlocks.Core.Exceptions\obj\Debug\net7.0\BuildingBlocks.Core.Exceptions.AssemblyInfoInputs.cache
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\BuildingBlocks\Core\BuildingBlocks.Core.Exceptions\obj\Debug\net7.0\BuildingBlocks.Core.Exceptions.AssemblyInfo.cs
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\BuildingBlocks\Core\BuildingBlocks.Core.Exceptions\obj\Debug\net7.0\BuildingBlocks.Core.Exceptions.csproj.CoreCompileInputs.cache
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\BuildingBlocks\Core\BuildingBlocks.Core.Exceptions\bin\Debug\net7.0\BuildingBlocks.Core.Exceptions.deps.json
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\BuildingBlocks\Core\BuildingBlocks.Core.Exceptions\bin\Debug\net7.0\BuildingBlocks.Core.Exceptions.dll
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\BuildingBlocks\Core\BuildingBlocks.Core.Exceptions\bin\Debug\net7.0\BuildingBlocks.Core.Exceptions.pdb
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\BuildingBlocks\Core\BuildingBlocks.Core.Exceptions\obj\Debug\net7.0\BuildingBlocks.Core.Exceptions.dll
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\BuildingBlocks\Core\BuildingBlocks.Core.Exceptions\obj\Debug\net7.0\refint\BuildingBlocks.Core.Exceptions.dll
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\BuildingBlocks\Core\BuildingBlocks.Core.Exceptions\obj\Debug\net7.0\BuildingBlocks.Core.Exceptions.pdb
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\BuildingBlocks\Core\BuildingBlocks.Core.Exceptions\obj\Debug\net7.0\ref\BuildingBlocks.Core.Exceptions.dll
